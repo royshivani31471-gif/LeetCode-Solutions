@@ -41,10 +41,10 @@ class Solution {
             before.next = prev;
         }
 
-        // reversed part ko 5 se connect
+        
         start.next = curr;
 
-        // agar left = 1 ho
+    
         if (before == null) {
             return prev;
         }
